@@ -19,7 +19,7 @@
 		initVDTTii();
 	}
 
-	function initMyBookmarklet() {
+	function initVDTTii() {
 		(window.VDTTii = function() {
 		   alert('test');
 			$('input[type=checkbox]').attr('checked','checked');
