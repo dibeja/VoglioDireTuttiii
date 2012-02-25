@@ -21,8 +21,9 @@
 
 	function initVDTTii() {
 		(window.VDTTii = function() {
-		   alert('test');
-			$('input[type=checkbox]').attr('checked','checked');
+		   if(confirm("Vuoi dire tutti?")){
+		      $('input[type=checkbox]').attr('checked','checked');
+		   }
 		})();
 	}
 
