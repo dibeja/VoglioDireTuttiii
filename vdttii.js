@@ -21,6 +21,7 @@
 
 	function initMyBookmarklet() {
 		(window.VDTTii = function() {
+		   alert('test');
 			$('input[type=checkbox]').attr('checked','checked');
 		})();
 	}
